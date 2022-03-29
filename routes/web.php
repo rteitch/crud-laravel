@@ -15,6 +15,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+<<<<<<< HEAD
+=======
+});
+
+Route::get('/hi', function () {
+    return view('index');
+>>>>>>> a5fc664040b1f74b60c28f20e017a6c964496ffe
 });
 
 Auth::routes();
